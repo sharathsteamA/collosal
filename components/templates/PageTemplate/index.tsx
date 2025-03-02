@@ -13,9 +13,9 @@ const PageTemplate = ({ children, title = 'Collosal' }: PageTemplateProps) => {
   const browserName = useGetBrowserName()
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>{title}</title>
-      </Head>
+      </Head> */}
       {/* Navbar Fixed on top */}
       <NavBar />
       {/* Background */}

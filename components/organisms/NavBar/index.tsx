@@ -54,7 +54,7 @@ const NavBar = () => {
                       isMobile ? 'cursor-default' : 'cursor-pointer'
                     }`}
                   >
-                    {isOpen ? <FiX /> : <FiMenu />}
+                  
                   </div>
                 </div>
               </div>
